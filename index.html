@@ -1,14 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Enough</title>
+  <meta charset="UTF-8">
+  <title>Cool Enough</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Tenor+Sans&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main"></div>
 
-    <script src="script.js"></script>
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+<div class="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-line"></div>
+    <h1 class="loader-text">COOL ENOUGH</h1>
+    <div class="preloader-line"></div>
+  </div>
+  <div class="preloader-counter">01</div>
+</div>
+
+<nav class="navbar">
+  <div class="logo">Cool Enough</div>
+  <button class="nav-burger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#">Collection</a></li>
+    <li><a href="#">Lookbook</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  <div class="nav-tag">DROP 01 — 2026</div>
+</nav>
+
+<div class="nav-mobile">
+  <ul>
+    <li><a href="#">Collection</a></li>
+    <li><a href="#">Lookbook</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Models</a></li>
+  </ul>
+  <div class="nav-mobile-bottom">DROP 01 — 2026</div>
+</div>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-line"></span>
+      <span>NEW COLLECTION</span>
+    </div>
+    <h1 class="main-title">Cool<br><em>Enough</em></h1>
+    <div class="hero-bottom">
+      <p class="tagline">Luxury tailored for<br>modern confidence.</p>
+      <button class="cta-btn">
+        <span>Explore Collection</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.2"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="hero-side">
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </div>
+  <div class="outline-text">DROP<br>01</div>
+</section>
+
+<section class="marquee-section">
+  <div class="marquee-track">
+    <span>ELEGANCE</span><span class="dot">·</span>
+    <span>CONFIDENCE</span><span class="dot">·</span>
+    <span>LUXURY</span><span class="dot">·</span>
+    <span>REFINED</span><span class="dot">·</span>
+    <span>MODERN</span><span class="dot">·</span>
+    <span>ELEGANCE</span><span class="dot">·</span>
+    <span>CONFIDENCE</span><span class="dot">·</span>
+    <span>LUXURY</span><span class="dot">·</span>
+    <span>REFINED</span><span class="dot">·</span>
+    <span>MODERN</span><span class="dot">·</span>
+  </div>
+</section>
+
+<section class="bento-section">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <h2 class="section-title">The Collection</h2>
+  </div>
+  <div class="bento">
+    <div class="bento-item big">
+      <img src="images/items/drop01-01.png" alt="">
+      <div class="bento-overlay">
+        <div>
+          <h3>Red Elegance</h3>
+          <p>DROP 01</p>
+        </div>
+        <span class="bento-arrow">→</span>
+      </div>
+    </div>
+    <div class="bento-item tall">
+      <img src="images/items/drop01-05.png" alt="">
+    </div>
+    <div class="bento-item tall">
+      <img src="images/items/drop01-09.png" alt="">
+    </div>
+    <div class="bento-item wide">
+      <img src="images/items/drop01-11.png" alt="">
+    </div>
+    <div class="bento-item">
+      <img src="images/items/drop01-13.png" alt="">
+    </div>
+    <div class="bento-item">
+      <img src="images/items/drop01-15.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="statement-section">
+  <div class="statement-inner">
+    <p class="statement-text">
+      <em>Crafted</em> for those who<br>need no validation.
+    </p>
+    <div class="statement-line"></div>
+  </div>
+</section>
+
+<section class="horizontal">
+  <div class="horizontal-label">
+    <span>02</span>
+    <span>Lookbook</span>
+  </div>
+  <div class="horizontal-track">
+    <div class="h-item"><img src="images/items/drop01-02.png" alt=""></div>
+    <div class="h-item"><img src="images/items/drop01-06.png" alt=""></div>
+    <div class="h-item"><img src="images/items/drop01-10.png" alt=""></div>
+    <div class="h-item"><img src="images/items/drop01-14.png" alt=""></div>
+    <div class="h-item"><img src="images/items/drop01-18.png" alt=""></div>
+    <div class="h-item"><img src="images/items/drop01-22.png" alt=""></div>
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="about-inner">
+    <div class="about-left">
+      <div class="about-left-sticky">
+        <span class="about-eyebrow">03 — Brand</span>
+        <h2 class="about-heading">Cool<br><em>Enough</em></h2>
+      </div>
+    </div>
+    <div class="about-right">
+      <div class="about-quote">
+        <span class="quote-mark open-q">&ldquo;</span>
+        <blockquote>We don&rsquo;t dress you for approval.<br>We dress you for yourself.</blockquote>
+        <span class="quote-mark close-q">&rdquo;</span>
+      </div>
+      <p class="about-body">
+        Cool Enough was born from a single conviction: that true luxury has nothing to prove. In a world saturated with noise, we return to silence — to the clean line, the considered cut, the fabric that speaks before you do.
+      </p>
+      <p class="about-body">
+        Each drop is small by design. Limited not as a marketing trick, but as a commitment — to quality, to intention, to the rare individual who understands that restraint is its own extravagance.
+      </p>
+      <div class="about-quote-two">
+        <span class="quote-mark open-q">&ldquo;</span>
+        <blockquote>Style is the answer to everything. A fresh way to approach a dull or dangerous thing.</blockquote>
+        <cite>— GUN</cite>
+        <span class="quote-mark close-q">&rdquo;</span>
+      </div>
+      <div class="about-stats">
+        <div class="about-stat">
+          <span class="stat-num">01</span>
+          <span class="stat-label">Debut Drop</span>
+        </div>
+        <div class="about-stat">
+          <span class="stat-num">24</span>
+          <span class="stat-label">Pieces Only</span>
+        </div>
+        <div class="about-stat">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Intention</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="models-section">
+  <div class="models-header">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Our Models</h2>
+  </div>
+
+  <div class="models-list">
+
+    <div class="model-row">
+      <div class="model-index">01</div>
+      <div class="model-text-block">
+        <h3 class="model-name">Amara Diallo</h3>
+        <div class="model-meta">
+          <span>Lagos · NYC</span>
+          <span>Drop 01 Face</span>
+        </div>
+        <p class="model-desc">Amara carries silence like a second skin. Her presence needs no introduction — only the garment, the light, and nothing else. The embodiment of what Cool Enough was built for.</p>
+      </div>
+      <div class="model-tags">
+        <span>Elegance</span>
+        <span>Editorial</span>
+      </div>
+      <div class="model-img-follow">
+        <img src="images/models/model01.png" alt="Amara Diallo">
+      </div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-index">02</div>
+      <div class="model-text-block">
+        <h3 class="model-name">Solène Voss</h3>
+        <div class="model-meta">
+          <span>Paris · Berlin</span>
+          <span>Drop 01 Face</span>
+        </div>
+        <p class="model-desc">From the ateliers of Paris to the raw studios of Berlin, Solène bridges two worlds without choosing sides. Her work is instinct rendered visible — unapologetic, architectural, alive.</p>
+      </div>
+      <div class="model-tags">
+        <span>Avant-Garde</span>
+        <span>Refined</span>
+      </div>
+      <div class="model-img-follow">
+        <img src="images/models/model02.png" alt="Solène Voss">
+      </div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-index">03</div>
+      <div class="model-text-block">
+        <h3 class="model-name">Kenji Moreau</h3>
+        <div class="model-meta">
+          <span>Tokyo · London</span>
+          <span>Drop 01 Face</span>
+        </div>
+        <p class="model-desc">Kenji moves through fashion the way water moves through stone — patiently, inevitably reshaping everything it touches. His gaze is a challenge disguised as serenity.</p>
+      </div>
+      <div class="model-tags">
+        <span>Minimalist</span>
+        <span>Tension</span>
+      </div>
+      <div class="model-img-follow">
+        <img src="images/models/model03.png" alt="Kenji Moreau">
+      </div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-index">04</div>
+      <div class="model-text-block">
+        <h3 class="model-name">Ines Carvalho</h3>
+        <div class="model-meta">
+          <span>Lisbon · Milan</span>
+          <span>Drop 01 Face</span>
+        </div>
+        <p class="model-desc">There is something old in Ines — a sureness that cannot be learned, only inherited. She wears our pieces as if she designed them herself. Perhaps she did, in a different life.</p>
+      </div>
+      <div class="model-tags">
+        <span>Timeless</span>
+        <span>Sensorial</span>
+      </div>
+      <div class="model-img-follow">
+        <img src="images/models/model04.png" alt="Ines Carvalho">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="final-grid">
+  <div class="final-header">
+    <span class="section-num">05</span>
+    <h2 class="section-title">Gallery</h2>
+  </div>
+  <div class="final-grid-inner">
+    <div class="fg-item"><img src="images/items/drop01-03.png" alt=""></div>
+    <div class="fg-item"><img src="images/items/drop01-07.png" alt=""></div>
+    <div class="fg-item"><img src="images/items/drop01-12.png" alt=""></div>
+    <div class="fg-item"><img src="images/items/drop01-16.png" alt=""></div>
+    <div class="fg-item"><img src="images/items/drop01-20.png" alt=""></div>
+    <div class="fg-item"><img src="images/items/drop01-24.png" alt=""></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-cta">
+    <span class="footer-cta-eyebrow">Ready to wear confidence?</span>
+    <h2 class="footer-cta-heading">Join the<br><em>Drop</em></h2>
+    <button class="cta-btn footer-cta-btn">
+      <span>Shop Drop 01</span>
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.2"/></svg>
+    </button>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-main">
+    <div class="footer-brand">
+      <h3 class="footer-logo">Cool Enough</h3>
+      <p>Luxury tailored for<br>modern confidence.</p>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">Lookbook</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Brand</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Our Models</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; 2026 Cool Enough. All rights reserved.</span>
+    <span>DROP 01 &mdash; Limited Edition</span>
+    <span>Made with intention.</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
